@@ -1,1 +1,36 @@
-/**/
+/* Reset & base */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #F9F9F6;
+  color: #003366;
+}
+
+nav {
+  background-color: #003366; /* Midnight Blue */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #D4AF37; /* Gold */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #F9F9F6; /* Ivory */
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #7FBCE9; /* Sky Blue */
+}
