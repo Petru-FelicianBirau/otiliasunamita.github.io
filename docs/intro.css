@@ -11,6 +11,7 @@
 .info {
   flex: 1 1 300px;
   min-width: 250px;
+  text-align: right;
 }
 
 .profile-image {
@@ -44,5 +45,8 @@
   .profile-image img {
     width: 100%;
     height: auto;
+  }
+  .info {
+    text-align: left;
   }
 }
