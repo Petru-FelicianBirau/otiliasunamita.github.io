@@ -37,16 +37,16 @@
   }
 }
 
-/* When content wraps to a column layout */
 @media (max-width: 760px) {
   .intro-section {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: auto;
   }
 
   .profile-image {
+    order: -1; /* Move image to top */
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -56,5 +56,9 @@
     width: 100%;
     max-width: 500px;
     height: auto;
+  }
+
+  .info {
+    text-align: left;
   }
 }
