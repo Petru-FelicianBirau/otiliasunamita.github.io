@@ -49,6 +49,7 @@
     order: -1; /* Move image to top */
     width: 100%;
     height: auto;
+    justify-content: right;
   }
 
   .profile-image img {
