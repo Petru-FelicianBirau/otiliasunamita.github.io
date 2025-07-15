@@ -1,7 +1,8 @@
-/* Reset & Base */
+/* style.css */
+
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: 'Merriweather', serif;
   background-color: #F9F9F6;
   color: #003366;
 }
@@ -39,7 +40,6 @@ nav {
   color: #7FBCE9;
 }
 
-/* Hamburger Button (hidden by default) */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -56,7 +56,7 @@ nav {
   display: block;
 }
 
-/* Responsive Rules */
+/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
