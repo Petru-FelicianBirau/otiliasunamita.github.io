@@ -12,12 +12,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   position: relative;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #D4AF37;
   letter-spacing: 1px;
