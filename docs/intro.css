@@ -40,8 +40,10 @@
 /* When content wraps to a column layout */
 @media (max-width: 760px) {
   .intro-section {
-    height: auto;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    height: auto;
   }
 
   .profile-image {
