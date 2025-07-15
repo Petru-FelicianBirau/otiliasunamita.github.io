@@ -30,6 +30,7 @@
   background-position: center;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  border-radius: 25px 25px 0 25px;
   overflow: hidden;
 }
 
@@ -37,22 +38,6 @@
   position: relative;
   z-index: 2; /* above the overlay */
 }
-
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px 25px 0 25px;
-  z-index: 1;
-}
-
-.overlay::before,
-.overlay::after {
-  display: none;
-}
-
 
 .name {
   font-size: 18px;
