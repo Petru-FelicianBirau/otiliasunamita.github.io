@@ -48,13 +48,12 @@
   .profile-image {
     order: -1; /* Move image to top */
     width: 100%;
-    max-width: 500px;
     height: auto;
   }
 
   .profile-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
   }
 
