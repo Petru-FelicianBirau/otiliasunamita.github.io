@@ -1,11 +1,11 @@
 .intro-section {
   display: flex;
-  height: 500px;
+  flex-wrap: wrap;
   padding: 2rem;
   gap: 2rem;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  height: 500px;
 }
 
 .info {
@@ -14,7 +14,7 @@
 }
 
 .profile-image {
-  flex: 0 0 auto;
+  flex: 0 0 350px;
   height: 500px;
   display: flex;
   align-items: center;
@@ -29,15 +29,11 @@
   object-fit: cover;
 }
 
-/* Responsive for small screens */
-@media (max-width: 350px) {
+/* When content wraps to a column layout */
+@media (max-width: 1000px) {
   .intro-section {
+    height: auto;
     flex-direction: column;
-    height: auto;
-  }
-
-  .intro-section {
-    height: auto;
   }
 
   .profile-image {
@@ -48,5 +44,16 @@
   .profile-image img {
     width: 100%;
     height: auto;
+  }
+}
+
+/* On very large screens */
+@media (min-width: 1400px) {
+  .intro-section {
+    height: 600px;
+  }
+
+  .profile-image {
+    height: 600px;
   }
 }
