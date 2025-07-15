@@ -30,7 +30,7 @@
 }
 
 /* Responsive for small screens */
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .intro-section {
     flex-direction: column;
     height: auto;
