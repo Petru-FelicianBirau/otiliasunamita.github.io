@@ -22,6 +22,7 @@
   align-items: center;
   padding: 10px 14px;
 }
+
 .image-content {
   position: relative;
   height: 200px;
@@ -36,13 +37,13 @@
   position: relative;
   z-index: 2; /* above the overlay */
 }
+
 .overlay {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 51, 102, 0.5); /* Midnight Blue with transparency */
   border-radius: 25px 25px 0 25px;
   z-index: 1;
 }
