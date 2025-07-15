@@ -63,19 +63,3 @@ startAutoScroll();
 swiper.on('touchStart', stopAutoScroll);
 swiper.on('slideChangeTransitionStart', stopAutoScroll);
 swiper.on('click', stopAutoScroll);
-
-
-function toggle_bewerbung() {
-  const dropArea = document.getElementById('bewerbung');
-
-  /* if the element is currently expanded, collapse it; otherwise expand */
-  if(dropArea.classList.contains('collapsed')){
-    // EXPAND: restore height, padding, and opacity
-    dropArea.classList.remove('collapsed');
-  }
-  else
-  {
-    // COLLAPSE: shrink until invisible
-    dropArea.classList.add('collapsed');
-  }
-}
