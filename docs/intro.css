@@ -30,7 +30,7 @@
 }
 
 /* Responsive for small screens */
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .intro-section {
     flex-direction: column;
     height: auto;
@@ -42,7 +42,7 @@
 
   .profile-image {
     width: 100%;
-    height: 350px;
+    height: auto;
   }
 
   .profile-image img {
