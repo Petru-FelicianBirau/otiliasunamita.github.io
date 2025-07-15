@@ -30,7 +30,7 @@
 }
 
 /* When content wraps to a column layout */
-@media (max-width: 550px) {
+@media (max-width: 760px) {
   .intro-section {
     height: auto;
     flex-direction: column;
