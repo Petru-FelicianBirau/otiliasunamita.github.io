@@ -61,6 +61,5 @@ startAutoScroll();
 
 // Detect user interaction
 swiper.on('touchStart', stopAutoScroll);
+swiper.on('slideChangeTransitionStart', stopAutoScroll);
 swiper.on('click', stopAutoScroll);
-swiper.on('navigationNext', stopAutoScroll);
-swiper.on('navigationPrev', stopAutoScroll);
