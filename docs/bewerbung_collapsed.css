@@ -10,3 +10,77 @@
     padding:0;              /* remove inner spacing while hidden       */
     opacity:0;
 }
+
+.bewerbung-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.bewerbung-info {
+  flex: 1 1 300px;
+  min-width: 250px;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  color: #003366;
+}
+
+.bewerbung-info h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #D4AF37;
+}
+
+.bewerbung-info p {
+  margin: 0.5rem 0;
+  color: #5C677D;
+  font-size: 16px;
+}
+
+.bewerbung-image {
+  flex: 0 0 350px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bewerbung-image img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive: image on top */
+@media (max-width: 760px) {
+  .bewerbung-section {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .bewerbung-image {
+    order: -1;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .bewerbung-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bewerbung-info {
+    text-align: left;
+  }
+}
