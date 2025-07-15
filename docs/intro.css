@@ -28,32 +28,3 @@
   border-radius: 12px;
   object-fit: cover;
 }
-
-/* When content wraps to a column layout */
-@media (max-width: 1000px) {
-  .intro-section {
-    height: auto;
-    flex-direction: column;
-  }
-
-  .profile-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .profile-image img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* On very large screens */
-@media (min-width: 1400px) {
-  .intro-section {
-    height: 600px;
-  }
-
-  .profile-image {
-    height: 600px;
-  }
-}
