@@ -63,6 +63,20 @@
   transition: all 0.3s ease;
 }
 
+
+.button .fullwidth {
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  color: #003366; /* Primary text */
+  padding: 8px 16px;
+  background-color: #D4AF37; /* Gold CTA */
+  border-radius: 6px;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .button:hover {
   background-color: #C9A432; /* Slightly darker gold on hover */
   color: #F9F9F6;
