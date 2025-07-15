@@ -31,6 +31,13 @@
 }
 
 /* When content wraps to a column layout */
+@media (max-width: 1200px) {
+  .info {
+    text-align: left;
+  }
+}
+
+/* When content wraps to a column layout */
 @media (max-width: 760px) {
   .intro-section {
     height: auto;
@@ -45,8 +52,5 @@
   .profile-image img {
     width: 100%;
     height: auto;
-  }
-  .info {
-    text-align: left;
   }
 }
